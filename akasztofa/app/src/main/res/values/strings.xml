@@ -4,4 +4,5 @@
     <string name="new_game_button">Új játék</string>
     <string name="rules_button">Játékszabályok</string>
     <string name="welcome">Üdvözöllek az akasztófa játékban!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 </resources>
