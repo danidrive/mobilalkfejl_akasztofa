@@ -1,10 +1,35 @@
 <resources>
     <string name="app_name">Akasztófa</string>
-    <string name="settings">Beállítások</string>
-    <string name="new_game_button">Új játék</string>
-    <string name="rules_button">Játékszabályok</string>
+    <string name="info_title">Infó</string>
+    <string name="new_game">Új játék</string>
+    <string name="rules_title">Játékszabályok</string>
     <string name="welcome">Üdvözöllek az akasztófa játékban!</string>
-    <string name="already_guessed">Ezt a betűt tippelted már: </string>
+    <string name="already_guessed">Ezt a betűt tippelted már.</string>
+    <string name="success">Ez a betű szerepel, csak így tovább!</string>
+    <string name="fail">Sajnos ez a betű nem szerepel.</string>
+    <string name="win">Gratulálok! Nyerél!</string>
+    <string name="lose">Sajnálom, elfogytak a lehetőségeid.</string>
+    <string name="want_a_new_game">Akarsz még egyet játszani?</string>
+    <string name="solution">A megfejtés:</string>
+    <string name="guess">Tippelek</string>
+    <string name="no_thanks">Inkább nem</string>
+    <string name="rules">
+        A feladat kitalálni egy ékezet nélküli magyar szót. Minden körben egy betűt tippelhetsz.
+        Ha a kitalálandó szóban szerepel a tippelt betű, akkor azok meg fognak jelenni a képernyőn.
+        Azonban ha nem jó betűt tippeltél, akkor csökken a lehetőségeid száma, és elkezd épülni
+        az akasztófa. Összesen 10 lehetőséged van, ha azokból kifutsz, elveszítetted a játékot.
+        Jó tipp esetén természetessen nem csökken a lehetőségeid száma. Ha minden betűt kitaláltál,
+        akkor megnyerted a játékot. Közben nyomon követheted, hogy milyen betűket tippeltél már.
+        Ha még egyszer tippelsz egy betűt, az nem befolyásolja a játék menetét.\n\n
+        Jó szórakozást!
+    </string>
+
+    <string name="info">
+        Az alkalmazás az SZTE Mobilalkalmazás-fejlesztés kurzusára készült.\n\n
+        Készítette: Kaposvári Dániel\n
+        PTI BSC 2. évfolyam\n\n
+        2019. május 11.
+    </string>
 
     <string-array name="words">
         <item>ablak</item>

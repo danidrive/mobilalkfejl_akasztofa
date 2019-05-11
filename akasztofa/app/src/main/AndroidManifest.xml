@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".view.RulesActivity"
+            android:label="@string/rules_title"
+            android:parentActivityName=".view.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.danidrive.mobilalkalmazasfejlesztes.akasztofa.view.MainActivity" />
+        </activity>
+        <activity
             android:name=".view.GameActivity"
             android:label="@string/app_name"
             android:parentActivityName=".view.MainActivity"
@@ -19,8 +28,8 @@
                 android:value="com.danidrive.mobilalkalmazasfejlesztes.akasztofa.view.MainActivity" />
         </activity>
         <activity
-            android:name=".view.SettingsActivity"
-            android:label="@string/settings"
+            android:name=".view.InfoActivity"
+            android:label="@string/info_title"
             android:parentActivityName=".view.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
