@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Akasztofa</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Akasztófa</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="new_game_button">Új játék</string>
+    <string name="rules_button">Játékszabályok</string>
+    <string name="welcome">Üdvözöllek az akasztófa játékban!</string>
 </resources>
